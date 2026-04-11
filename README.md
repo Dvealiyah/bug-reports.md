@@ -1,32 +1,68 @@
-# 🔐 Burp Suite Basics
+# 🔐 Burp Suite Web Security Testing
 
-This project demonstrates basic usage of Burp Suite for intercepting and analyzing HTTP requests.
+This project demonstrates web security testing using Burp Suite on a vulnerable web application.
+
+---
+
+## 🚀 Overview
+
+In this project, I used Burp Suite to intercept, analyze, and manipulate HTTP requests to test application security.
+
+---
+
+## 🧪 Testing Activities
+
+- Intercepted HTTP requests using Proxy  
+- Analyzed request/response data  
+- Performed login testing  
+- Used Intruder to test multiple payloads  
+- Identified response differences  
 
 ---
 
 ## 📸 Screenshots
 
-![Intercept](./screenshots/burp-intercept.png)
-
-![Request](./screenshots/burp-request-response.png)
-
----
-
-## 💡 What I Learned
-
-- Intercepting HTTP requests  
-- Understanding request/response structure  
-- Basic web traffic analysis  
+### 🔹 Login Page
+![Login](screenshots/login-page.png)
 
 ---
 
-## 🧰 Tool Used
-
-- Burp Suite  
+### 🔹 Successful Login
+![Login Success](screenshots/valid-login.png)
 
 ---
 
-## 💡 Author
+### 🔹 Intercepting Request
+![Intercept](screenshots/intercept-request.png)
 
-Dvealiyah  
-QA & Security Tester 🚀
+---
+
+### 🔹 Intruder Attack
+![Intruder](screenshots/intruder-attack.png)
+
+---
+
+### 🔹 Intruder Results
+![Results](screenshots/intruder-results.png)
+
+---
+
+## 🧠 Key Learnings
+
+- Understanding HTTP requests and responses  
+- Using Burp Proxy for interception  
+- Performing basic brute-force testing  
+- Analyzing web application behavior  
+
+---
+
+## 🧰 Tools Used
+
+- Burp Suite Community Edition  
+- Browser (Proxy configured)  
+
+---
+
+## ⚠️ Disclaimer
+
+This project was conducted in a safe and legal testing environment
