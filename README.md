@@ -1,68 +1,68 @@
 # 🔐 Burp Suite Web Security Testing
 
-This project demonstrates web security testing using Burp Suite on a vulnerable web application.
+This project demonstrates basic web security testing using Burp Suite on a deliberately vulnerable web application.
 
 ---
 
 ## 🚀 Overview
 
-In this project, I used Burp Suite to intercept, analyze, and manipulate HTTP requests to test application security.
+The goal of this project is to understand how web applications handle HTTP requests and how attackers may analyze and manipulate them.
+
+Using Burp Suite, I intercepted and modified requests to observe how the application responds under different conditions.
 
 ---
 
 ## 🧪 Testing Activities
 
-- Intercepted HTTP requests using Proxy  
-- Analyzed request/response data  
-- Performed login testing  
-- Used Intruder to test multiple payloads  
-- Identified response differences  
+- Intercepted HTTP requests using Burp Proxy  
+- Inspected request and response data  
+- Performed login testing with valid and invalid credentials  
+- Used Intruder to send multiple payloads  
+- Compared server responses (status code, length, etc.)  
 
 ---
 
 ## 📸 Screenshots
 
 ### 🔹 Login Page
-![Login](screenshots/login-page.png)
-
----
+Login
 
 ### 🔹 Successful Login
-![Login Success](screenshots/valid-login.png)
-
----
+Login Success
 
 ### 🔹 Intercepting Request
-![Intercept](screenshots/intercept-request.png)
+Intercept
 
----
-
-### 🔹 Intruder Attack
-![Intruder](screenshots/intruder-attack.png)
-
----
+### 🔹 Intruder Attack Setup
+Intruder Attack
 
 ### 🔹 Intruder Results
-![Results](screenshots/intruder-results.png)
+Results
 
 ---
 
 ## 🧠 Key Learnings
 
-- Understanding HTTP requests and responses  
-- Using Burp Proxy for interception  
-- Performing basic brute-force testing  
-- Analyzing web application behavior  
+- Understanding how HTTP requests and responses work  
+- Using Burp Suite Proxy to intercept traffic  
+- Identifying how login forms process credentials  
+- Performing basic brute-force style testing  
+- Analyzing differences in server responses  
 
 ---
 
 ## 🧰 Tools Used
 
 - Burp Suite Community Edition  
-- Browser (Proxy configured)  
+- Web Browser (configured with proxy)  
 
+---
+
+## 👤 Author
+
+Aliyah
 ---
 
 ## ⚠️ Disclaimer
 
-This project was conducted in a safe and legal testing environment
+This project was conducted in a controlled and legal environment for educational purposes only
